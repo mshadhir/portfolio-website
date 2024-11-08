@@ -10,13 +10,6 @@
   </header>
 </template>
 
-
-<script>
-export default {
-  name: 'HeaderSection'
-};
-</script>
-
 <style scoped>
 .header {
   text-align: center;

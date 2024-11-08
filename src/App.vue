@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="app">
     <HeaderSection />
     <section id="about"><AboutSection /></section>
@@ -8,6 +9,18 @@
   </div>
 </template>
 
+=======
+    <div class="app">
+      <HeaderSection />
+      <AboutSection />
+      <SkillsSection />
+      <ExperienceSection />
+      <CertificationsSection />
+      <ProjectsSection />
+      <ContactSection />
+    </div>
+  </template>
+>>>>>>> 96fd5b6 (more sections)
   
   <script>
   import HeaderSection from './components/HeaderSection.vue';
