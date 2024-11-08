@@ -1,23 +1,39 @@
 <template>
   <section class="projects">
-      <h2>Projects</h2>
-      <ul>
-          <li><strong>Cybering Labs – IT Industry Project:</strong> Contributed to Cyber Mind cybersecurity platform with new training labs.</li>
-          <li><strong>Swinburne Seed Library:</strong> Created a Mendix app for users to explore, reserve, and rate seeds.</li>
-          <li><strong>ICT Design Project - Gauntlet:</strong> Enhanced UI for cybersecurity exercises on Retrospect Labs' platform.</li>
-      </ul>
+    <h2>Projects</h2>
+    <ul>
+      <li v-for="project in projects" :key="project.title">
+        <strong>{{ project.title }}:</strong> {{ project.description }}
+        <div v-if="project.link">
+          <a :href="project.link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </div>
+      </li>
+    </ul>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'ProjectsSection'
+  name: 'ProjectsSection',
+  data() {
+    return {
+      projects: [
+        {
+          title: "Cybering Labs – IT Industry Project",
+          description: "Contributed to Cyber Mind cybersecurity platform with new training labs.",
+          link: "https://github.com/mshadhir/cybering-labs"
+        },
+        {
+          title: "Swinburne Seed Library",
+          description: "Created a Mendix app for users to explore, reserve, and rate seeds.",
+          link: "https://github.com/mshadhir/swinburne-seed-library"
+        },
+        {
+          title: "ICT Design Project - Gauntlet",
+          description: "Enhanced UI for cybersecurity exercises on Retrospect Labs' platform."
+        }
+      ]
+    };
+  }
 };
 </script>
-
-<style scoped>
-.projects {
-  margin: 20px;
-  color: #444;
-}
-</style>
