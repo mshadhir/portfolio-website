@@ -10,7 +10,21 @@
   </header>
 </template>
 
+<script>
+export default {
+  name: 'HeaderSection'
+};
+</script>
+
 <style scoped>
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #4A90E2;
+  color: #fff;
+  border-radius: 8px;
+}
+
 nav a {
   color: #fff;
   text-decoration: none;

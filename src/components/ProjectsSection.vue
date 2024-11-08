@@ -19,6 +19,11 @@ export default {
     return {
       projects: [
         {
+          title: "Portfolio Website",
+          description: "A personal portfolio website built with Vue.js, showcasing a modern, responsive UI with interactive elements and gradient backgrounds.",
+          link: "https://github.com/mshadhir/portfolio-website"
+        },
+        {
           title: "Cybering Labs – IT Industry Project",
           description: "Contributed to Cyber Mind cybersecurity platform with new training labs.",
           link: "https://github.com/mshadhir/cybering-labs"
