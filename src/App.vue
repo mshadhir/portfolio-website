@@ -1,14 +1,13 @@
 <template>
-    <div class="app">
-      <HeaderSection />
-      <AboutSection />
-      <SkillsSection />
-      <ExperienceSection />
-      <CertificationsSection />
-      <ProjectsSection />
-      <ContactSection />
-    </div>
-  </template>
+  <div class="app">
+    <HeaderSection />
+    <section id="about"><AboutSection /></section>
+    <section id="skills"><SkillsSection /></section>
+    <section id="projects"><ProjectsSection /></section>
+    <section id="contact"><ContactSection /></section>
+  </div>
+</template>
+
   
   <script>
   import HeaderSection from './components/HeaderSection.vue';
