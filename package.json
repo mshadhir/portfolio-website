@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Portfolio website using Vue.js and Vite",
   "main": "index.js",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "serve": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
