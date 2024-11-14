@@ -25,13 +25,16 @@ export default {
 .skills ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
+  padding: 10px 0;
 }
 
 .skills li {
-  background-color: #e8f4fa;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: #333;
+  background-color: #e0f7fa;
+  padding: 8px 12px;
+  border-radius: 20px;
+  color: #00796b;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 </style>
